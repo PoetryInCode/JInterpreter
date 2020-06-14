@@ -15,6 +15,7 @@ It currently has support for being passed global variables also known as **syste
 commands.
 
 Eventually I will add support for:
+  * change operator symbols
   * local variables
   * functions
   * non-void functions
