@@ -1,4 +1,4 @@
-package my.language.interpreter;
+package com.github.PoetryInCode.JInterpreter;
 
 import java.util.HashMap;
 import java.util.Stack;
