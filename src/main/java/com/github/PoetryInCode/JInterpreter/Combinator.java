@@ -1,4 +1,4 @@
-package my.language.interpreter;
+package com.github.PoetryInCode.JInterpreter;
 
 import java.util.HashMap;
 import java.util.Stack;
@@ -10,6 +10,10 @@ public class Combinator {
     public void add(Command command) {
         commands.put(command.key,command);
     }
+
+    /**
+     * @param word
+     */
     public void load(String word) {
         if(context.empty()) {
             System.out.println("context empty");
